@@ -1,0 +1,16 @@
+main: fr.plx0wn.TagSomeone
+name: TagSomeone
+description: Tag someone in the chat!
+author: [Plx0wn, lucluc52]
+version: 1.8
+
+commands:
+   tag:
+      default: op
+permissions:
+   tag.use:
+      default: op
+   tag.admin:
+      default: op
+   tag.cooldown.bypass:
+      default: op
