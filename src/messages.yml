@@ -1,0 +1,23 @@
+###########################################################
+# +-----------------------------------------------------+ #
+# |                      Messages                       | #
+# +-----------------------------------------------------+ #
+###########################################################
+
+global-messages:
+   not-online: "&cThis player is not online."
+   tagged: "&6<player> tagged you in a message."
+   no-permissions: "&cYou don't have that permission."
+   cooldown-message: "&cYou need to wait <time> seconds before tag again."
+ 
+black-list-messages:
+   black-listed: "&cYou can't tag this player."
+   add: "&a<player> was added into the black-list!"
+   remove: "&a<player> was remove from the black-list"
+ 
+disabled-list-messages:
+   disable: "&cYou can't use tags anymore."
+   enable: "&aYou can tag players now."
+   disabled: "You can't tag players, this feature is disabled!"
+   already-disabled: "&cTags already disabled!"
+   already-enabled: "&cTags already enabled!"

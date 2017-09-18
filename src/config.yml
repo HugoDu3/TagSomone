@@ -1,0 +1,49 @@
+# If you see an error please report them on my spigot page: https://www.spigotmc.org/resources/tagsomeone.33357/
+# Sorry for my bad english!
+
+###########################################################
+# +-----------------------------------------------------+ #
+# |                      Settings                       | #
+# +-----------------------------------------------------+ #
+###########################################################
+
+# Change here all options about the tag!
+tag-option:
+
+   # Character before the player's name.
+   symbol: "@"
+
+   # All options about notifications when player is tagged.
+   notification:
+   
+      # If enable, tagged player hear a sound when he is tagged.
+      # Sound list (only work on 1.11, you need to search other sound names for older spigot version!)
+      # https://hub.spigotmc.org/javadocs/bukkit/org/bukkit/Sound.html
+      sound:
+         enable: true
+         name: "ENTITY_PLAYER_LEVELUP"
+         
+      # If enable, tagged player receive a message.
+      chat-message: true
+      
+      # If enable, tagged player receive a message in the action bar. Only work on 1.8+
+      action-bar-message: false
+      
+      # If enable, tagged player receive a message in the action bar. Only work on 1.8+
+      title-message: false
+ 
+   color-option:
+      # The color name of tagged player in chat.
+      color: "&6"
+      
+      # If enable, code (default "@") behind tagged name is colored.
+      colored-symbol: true
+
+      # Only if you use an other default color in chat.
+      color-after-tag: "&r"
+       
+   cooldown:
+      # If enable, players must wait 
+      enable: true
+      # Cooldown time in seconds
+      time: 3
